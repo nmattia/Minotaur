@@ -1,0 +1,13 @@
+$#include <MinoGL/GUI.hpp>
+$#include <MinoGame/Game.hpp>
+
+namespace MinoGL
+{
+
+	class GUI
+	{
+		static GUI getInstance();
+		void notifyEvent(std::string event);
+
+	};
+}
