@@ -28,4 +28,9 @@
 *.app
 
 
+# Vim
+*.swp
+
+
+
 **/tags
